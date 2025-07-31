@@ -1,0 +1,24 @@
+{
+  "products": [
+    { "id": 1, "name": "Laptop", "price": 749.99, "description": "High-performance laptop for professionals", "category": "Electronics", "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8" },
+    { "id": 2, "name": "Wireless Mouse", "price": 29.99, "description": "Ergonomic wireless mouse", "category": "Electronics", "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3" },
+    { "id": 3, "name": "Office Chair", "price": 129.99, "description": "Comfortable adjustable office chair", "category": "Furniture", "image": "https://cdn.moglix.com/p/djsrKBRPVjQIC-xxlarge.jpg" },
+    { "id": 4, "name": "Bluetooth Speaker", "price": 59.99, "description": "Portable Bluetooth speaker with deep bass", "category": "Electronics", "image": "https://m.media-amazon.com/images/I/71poiJ97u9L.jpg" },
+    { "id": 5, "name": "Running Shoes", "price": 79.99, "description": "Lightweight and durable running shoes", "category": "Footwear", "image": "https://cdn.thewirecutter.com/wp-content/media/2024/05/runningshoesforyou-2048px-2254.jpg?auto=webp&quality=75&width=1024" },
+    { "id": 6, "name": "Smartwatch", "price": 199.99, "description": "Track fitness and stay connected on the go", "category": "Wearables", "image": "https://www.jiomart.com/images/product/original/rvnjwxmr8l/punnkfunnk-kids-smart-watch-1-44-tft-display-4g-sim-card-phone-with-long-lasting-voice-call-kids-gps-music-player-alarm-clock-games-ip67-waterproof-blue-product-images-orvnjwxmr8l-p608090268-0-202402191738.jpg?im=Resize=(420,420)" },
+    { "id": 7, "name": "Coffee Maker", "price": 89.99, "description": "Brews perfect coffee every time", "category": "Appliances", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2fFn8FAAdbi0Bi9IC7BdpIxa-eCBhajvmVw&s" },
+    { "id": 8, "name": "Backpack", "price": 49.99, "description": "Durable and stylish backpack for travel", "category": "Bags", "image": "https://solo-ny.com/cdn/shop/files/UBN795-4_HO_887bba68-33a4-48d5-a1b6-b5947c6164ac.jpg?v=1695140976" },
+    { "id": 9, "name": "Sunglasses", "price": 24.99, "description": "UV-protection polarized sunglasses", "category": "Accessories", "image": "https://www.eyewearlabs.com/cdn/shop/files/1_d98fa425-93a3-4127-8a0c-8d590aa46735.png?v=1753279393" },
+    { "id": 10, "name": "Desk Lamp", "price": 19.99, "description": "LED desk lamp with adjustable brightness", "category": "Furniture", "image": "https://m.media-amazon.com/images/I/71+H5mhr0YL._UF1000,1000_QL80_.jpg" },
+    { "id": 11, "name": "Yoga Mat", "price": 34.99, "description": "Non-slip mat ideal for yoga and workouts", "category": "Fitness", "image": "https://images-cdn.ubuy.co.in/63400bb91cce4555b73def54-yoga-mat-innhom-yoga-mats-for-women-13.jpg" },
+    { "id": 12, "name": "Electric Kettle", "price": 39.99, "description": "Boils water quickly and safely", "category": "Appliances", "image": "https://www.rasoishop.com/cdn/shop/files/8901309227735-9.jpg?v=1701447072" },
+    { "id": 13, "name": "Graphic T-Shirt", "price": 15.99, "description": "Soft cotton printed t-shirt", "category": "Clothing", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1S_xClRtjwPRAFkkkJVkHGib23BvSf6YTIw&s" },
+    { "id": 14, "name": "Wireless Earbuds", "price": 89.99, "description": "Compact design with long battery life", "category": "Electronics", "image": "https://m.media-amazon.com/images/I/514S1jJpKrL._UF1000,1000_QL80_.jpg" },
+    { "id": 15, "name": "Bookshelf", "price": 109.99, "description": "Modern wooden bookshelf with 5 tiers", "category": "Furniture", "image": "https://images.unsplash.com/photo-1600585152220-90363fe7e115" },
+    { "id": 16, "name": "Digital Camera", "price": 499.99, "description": "Capture stunning photos and videos", "category": "Electronics", "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f" },
+    { "id": 17, "name": "Winter Jacket", "price": 119.99, "description": "Warm, windproof, and waterproof", "category": "Clothing", "image": "https://images-cdn.ubuy.co.in/65387a8e9a174823154cd84d-tacvasen-men-39-s-winter-jacket-with.jpg" },
+    { "id": 18, "name": "Wrist Watch", "price": 149.99, "description": "Elegant analog wrist watch", "category": "Accessories", "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30" },
+    { "id": 19, "name": "Tablet", "price": 299.99, "description": "Slim tablet with high-res display", "category": "Electronics", "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3" },
+    { "id": 20, "name": "Sneakers", "price": 69.99, "description": "Trendy and comfortable sneakers", "category": "Footwear", "image": "https://assets.manufactum.de/p/209/209943/209943_01.jpg/ladies-sneaker.jpg" }
+  ]
+}

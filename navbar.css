@@ -1,0 +1,135 @@
+*{
+    background-color: #eeeff1;
+}
+.navbar{
+    background-color: #eeeff1;
+    padding: 20px;
+    display: flex;
+}
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    margin-left: 850px;
+    line-height: 50px;
+}
+.navbar li{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.navbar a{
+    color: #333;
+    text-decoration: none;
+}
+.header1{
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    margin: 10px 20px;
+    padding: 10px 0px;
+}
+.header1 div{
+    background-color: white;
+}
+.header1 div p{
+    background-color: white;
+}
+.slider-container{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+}
+#slider{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.nav-button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: none;
+    color: black;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.prev{
+    left: 0px;
+}
+.next{
+    right: 0px;
+}
+.nav-button:hover{
+    background-color: #d0cccc;
+}
+.Electronics{
+    background-color: white;
+    padding: 10px;
+}
+.Electronics h2{
+    background-color: white;
+}
+.header2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.header2 div{
+    background-color: white;
+    text-align: center;
+}
+.header2 div img{
+    width: 100px;
+    height: 150px;
+}
+.header2 div h6{
+    background-color: white;
+    font-size: 17px;
+    margin-top: -10px;
+}
+.header3{
+    display: flex;
+    gap: 10px;
+    margin: 0px 20px;
+}
+.grid-holder{
+    background-color: white;
+    margin-top: 20px;
+    width: 30%;
+    padding: 10px;
+}
+.grid-holder h2{
+    background-color: white;
+}
+.grid{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,45%);
+    text-align: left;
+    background-color: white;
+    
+}
+.grid div{
+    background-color: white;
+    border: 1px solid rgb(222, 218, 218);
+    padding: 8px;
+}
+.grid div p{
+    background-color: white;
+    font-size: 17px;
+}
+.grid div h6{
+    background-color: white;
+    font-size: 17px;
+    line-height: 10px;
+    margin: 0;
+    color: green;
+}
+.grid img{
+    width: 70%;
+    margin-left: 15%;
+}

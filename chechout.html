@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div>
+            <img src="">
+      </div>
+      <ul>
+       <li><a herf="index.html">home</a></li>
+       <li><a href="product.html">product</a></li>
+       <li><a href="cart.html">cart</a></li>
+      </ul>
+    </nav>
+       <div class="checkout-container">
+        <h1>checkout</h1>
+        
+
+        <div class="checkout-wrapper">
+            <!-- from -->
+         <div class="shipping-info">
+                <h2>shipping details</h2>
+                <form id="checkoutfrom">
+                    <input type="text" placeholder="full Name" required>
+                    <input type="email" placeholder="email Address" required>
+                    <input type="text" placeholder="phone Number" required>
+                    <input type="text" placeholder="Address Line 1" required>
+                    <input type="text" placeholder="Address Line 2" required>
+                    <input type="text" placeholder="City" required>
+                    <input type="text" placeholder="state" required>
+                    <input type="text" placeholder="postal Code" required>
+                </form>
+                
+            </div>
+
+            <div class="order-summary">
+                <h2>order-summary</h2>
+                <div id="summaryItems"></div>
+                <div id="summaryTotal" class="summary-total"></div>
+                <button onclick="placeholder()"> place order</button>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function loadSummary(){
+                let cart = JSON.parse(localStorage.getItem("cart")) || [];
+                const summaryItems = document.getElementById("summaryItems");
+                const summaryTotal = document.getElementById("summaryTotal");
+                
+                if(cart.length == 0){
+                    summaryItems.innerHTML = "<p>Your cart is empty</p>"
+                    summaryTotal.innerHTML = "";
+                    return;
+
+                 }
+                let total = 0;
+                summaryItems.innerHTML = cart.map(item => {
+                    total += item.price;
+                    return
+                    <div class="summary-item">
+                        <span>${item.name}</span>
+                        <span>${item.price}</span>
+                    </div>
+
+                }).join("");
+
+                summaryTotal.innerHTML = `<strong>Total: Rs ${Total}</strong>`;
+            }
+
+            function placeOrder(){
+                alert("order Placed Successfully! Thank you for Shopping with us");
+                localStorage.removeItem("cart");
+                window.location.herf = "index.html"
+            }
+            loadSumary();
+            </script>
+    
+        </body>
+</html>
